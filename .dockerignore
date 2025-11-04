@@ -1,0 +1,17 @@
+node_modules
+.npm
+.git
+.github
+.vscode
+.next
+Dockerfile
+.dockerignore
+.env.local
+.env.development
+.env.production
+.env.test
+.vercel
+*.log
+coverage
+dist
+build
