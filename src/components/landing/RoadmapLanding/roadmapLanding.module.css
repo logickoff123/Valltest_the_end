@@ -1,0 +1,206 @@
+/* Существующие стили остаются */
+.container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.roadmapTitle {
+    scroll-margin-top: 80px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(193, 239, 0, 1);
+    margin-bottom: 12px;
+}
+
+.planTitle {
+    height: 44px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.imageContanier2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.imageContanier3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+/* Скрываем десктопную версию на мобилках */
+@media (max-width: 768px) {
+    .imageContanier3 {
+        display: none;
+    }
+}
+
+.roadmapImage {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.roadmapImageMobile {
+    width: 100%;
+    height: auto;
+    display: none;
+    padding: 0 40px;
+}
+
+/* Новые стили для мобильной версии лого */
+.mobileLogoContainer {
+    display: none; /* По умолчанию скрываем */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+
+.mobileLogoWrapper {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobileLogoImage {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.mobileLogoText {
+    max-width: 400px;
+}
+
+.mobileLogoTitle {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: white;
+    margin-bottom: 12px;
+}
+
+.mobileLogoDescription {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Адаптивность */
+@media (max-width: 899px) {
+    .roadmapImage {
+        display: none;
+    }
+
+    .roadmapImageMobile {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .planTitle {
+        font-size: 30px;
+        line-height: 44px;
+        margin-bottom: 40px;
+    }
+    
+    /* Показываем мобильную версию лого */
+    .mobileLogoContainer {
+        display: flex;
+    }
+    
+    .imageContainer,
+    .imageContanier2 {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 499px) {
+    .planTitle {
+        font-size: 28px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+
+    .roadmapTitle {
+        font-size: 12px;
+    }
+    
+    .mobileLogoWrapper {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 20px;
+    }
+    
+    .mobileLogoTitle {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    
+    .mobileLogoDescription {
+        font-size: 14px;
+    }
+    
+    .imageContainer,
+    .imageContanier2 {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 414px) {
+    .planTitle {
+        font-size: 22px;
+        line-height: 34px;
+        margin-bottom: 20px;
+    }
+    
+    .mobileLogoWrapper {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 16px;
+    }
+    
+    .mobileLogoTitle {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    
+    .mobileLogoDescription {
+        font-size: 13px;
+    }
+    
+    .imageContainer,
+    .imageContanier2 {
+        margin-bottom: 25px;
+    }
+}
