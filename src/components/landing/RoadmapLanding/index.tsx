@@ -4,17 +4,11 @@ import styles from "./roadmapLanding.module.css"
 export function RoadmapLanding() {
     return (
         <div className={styles.container}>
-            <p id="roadmap" className={styles.roadmapTitle}>Дорожная карта</p>
-            <p className={styles.planTitle}>Наш стратегический план</p>
-
-            <div className={styles.imageContainer}>
-                <Image src="/landing/Roadmap.svg" width={0} height={0} sizes="80%" alt="Roadmap" className={styles.roadmapImage}/>
-                <Image src="/landing/Roadmap2.svg" width={0} height={0} sizes="100%" alt="Roadmap mobile" className={styles.roadmapImageMobile}/>
-            </div>
+            <p className={styles.planTitle}>Наша команда</p>
             
             <div className={styles.imageContanier2}>
-                <Image src="/landing/1all.png" width={0} height={0} sizes="80%" alt="dreamtem" className={styles.roadmapImage}/>
-                <Image src="/landing/eeeee.png" width={0} height={0} sizes="80%" alt="dreamteam" className={styles.roadmapImageMobile}/>
+                <Image src="/landing/u34.png" width={0} height={0} sizes="80%" alt="dreamtem" className={styles.roadmapImage}/>
+                <Image src="/landing/u123.png" width={0} height={0} sizes="80%" alt="dreamteam" className={styles.roadmapImageMobile}/>
             </div>
 
             {/* Десктопная версия лого и текста */}
@@ -26,7 +20,7 @@ export function RoadmapLanding() {
             <div className={styles.mobileLogoContainer}>
                 <div className={styles.mobileLogoWrapper}>
                     <Image 
-                        src="/landing/logo42.png" 
+                        src="/landing/image_39.png" 
                         width={0} 
                         height={0} 
                         sizes="80%"
