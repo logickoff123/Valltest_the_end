@@ -13,7 +13,7 @@ export function RoadmapLanding() {
 
             {/* Десктопная версия лого и текста */}
             <div className={styles.imageContanier3}>
-                <Image src="/landing/logo.png" width={0} height={0} sizes="90%" alt="fond" className={styles.roadmapImage}/>
+                <Image src="/landing/logo666.png" width={0} height={0} sizes="90%" alt="fond" className={styles.roadmapImage}/>
             </div>
 
             {/* Мобильная версия лого и текста */}
@@ -30,7 +30,7 @@ export function RoadmapLanding() {
                 </div>
                 <div className={styles.mobileLogoText}>
                     <p className={styles.mobileLogoDescription}>
-                        Проект создан при проддержке Федерального государсвенного бюджетного учреждения "Фонд содействия развитию малых форм предприятий в научно-технической сфере в рамках программы "Студенческий стартап" Федерального проекта "Платформа университесткого технологического предпринимательства" </p>
+                        Проект выполнен при поддержке Фонда содействия инновациям в рамках программы «Студенческий стартап» федерального проекта «Платформа университетского технологического предпринимательства». </p>
                 </div>
             </div>
         </div>
